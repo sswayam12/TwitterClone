@@ -3,7 +3,7 @@ import { CreatePost } from './CreatePost'
 
 export const Feed = () => {
   return (
-    <div>
+    <div className='w-[60%]'>
       <div>
         <CreatePost/>
       </div>

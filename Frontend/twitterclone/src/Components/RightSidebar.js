@@ -2,6 +2,6 @@ import React from 'react'
 
 export const RightSidebar = () => {
   return (
-    <div>RightSidebar</div>
+    <div className='w-[20%]'>RightSidebar</div>
   )
 }

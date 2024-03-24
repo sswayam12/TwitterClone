@@ -9,7 +9,7 @@ import { CiLogout } from "react-icons/ci";
 
 export const LeftSidebar = () => {
   return (
-    <><div>
+    <div className='w-[20%]'><div>
         <div>
             <img className='ml-4 mt-6' width={"60px"} src='https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png' alt='twitter-logo'/>
         </div>
@@ -57,6 +57,6 @@ export const LeftSidebar = () => {
        </div>
        <button className='px-4 py-2 border-none text-md bg-[#1D98F0] w-full rounded-full text-white font-bold'>POST</button>
         
-    </div></>
+    </div></div>
   )
 }
